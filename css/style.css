@@ -1,0 +1,985 @@
+:root {
+  --pink: #f14e95;
+  --bg: #0a0a0a;
+  --shadow: 0 4px 4px rgb(0 0 0 / 0.5);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* main h2 {
+    color: white;
+    font-family: "Great Vibes";
+    font-family: 'Allura', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+} */
+
+body {
+  font-size: 1.2rem;
+  font-family: "Work Sans", sans-serif;
+  min-height: 4000px;
+}
+
+/* .snow_wrap {
+  height: 100vh;
+  width: 100%;
+} */
+
+/* .snow,
+.snow::after,
+.snow::before {
+  content: "";
+  position: absolute;
+  top: -650px;
+  left: 0;
+  right: 0;
+  bottom: 0;background-image: 
+  radial-gradient(4px 4px at 100px 50px, #fff, transparent),
+  radial-gradient(6px 6px at 200px 150px, #fff, transparent),
+  radial-gradient(3px 3px at 300px 250px, #fff, transparent),
+  radial-gradient(4px 4px at 400px 350px, #fff, transparent),
+  radial-gradient(6px 6px at 500px 100px, #fff, transparent),
+  radial-gradient(3px 3px at 50px 200px, #fff, transparent),
+  radial-gradient(4px 4px at 150px 300px, #fff, transparent),
+  radial-gradient(6px 6px at 250px 400px, #fff, transparent),
+  radial-gradient(3px 3px at 350px 500px, #fff, transparent);
+  background-size: 650px 650px;
+
+  animation: snowAnim 3s linear;
+  animation-iteration-count: infinite;
+}
+
+.snow::after {
+  margin-left: -250px;
+  opacity: 0.5;
+  filter: blur(2px);
+  animation-direction: reverse;
+  animation-duration: 6s;
+}
+
+.snow::before {
+  margin-left: -350px;
+  opacity: 0.7;
+  filter: blur(1px);
+  animation-direction: reverse;
+  animation-duration: 9s;
+} */
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/prewed\ adat\ jawa.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+}
+
+.hero h1,
+.hero h4,
+.hero p {
+  text-shadow: var(--shadow);
+}
+
+.hero h2 {
+  color: white;
+  /* font-family: "Great Vibes";
+  font-family: 'Allura', cursive; */
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Averia Serif Libre", serif;
+  font-size: 2.5rem;
+}
+
+.hero h1 {
+  font-family: "Updock", cursive;
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.hero h4 {
+  font-size: 1.6rem;
+  font-family: "Averia Serif Libre", serif;
+}
+
+.hero p {
+  font-size: 1.6rem;
+  font-family: "Averia Serif Libre", serif;
+}
+
+.hero a {
+  color: #0457bb;
+  background-color: white;
+  box-shadow: var(--shadow);
+  border-radius: 30px;
+  font-size: 1.6rem;
+}
+
+.hero a:hover {
+  background-color: #0457bb;
+  color: white;
+}
+
+.mynavbar {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(4px);
+}
+
+.mynavbar .offcanvas {
+  height: 50vh;
+}
+
+.mynavbar .navbar-brand {
+  font-family: "Averia Serif Libre", serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.mynavbar .offcanvas-title {
+  font-family: "Averia Serif Libre", serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0457bb;
+}
+
+.mynavbar .nav-link {
+  /* font-weight: 600; */
+  text-transform: uppercase;
+  font-family: "Averia Serif Libre", serif;
+  color: #0457bb;
+}
+
+.offcanvas-body a {
+  color: white;
+}
+
+.stickyyy {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
+
+/* .sticky-top {
+  overflow: hidden;
+} */
+
+.home {
+  /* background-image: url(img/wayang-bg.png);
+  background-size: cover; */
+  background-color: #0457bb;
+  min-height: 100vh;
+  margin-top: -6rem;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
+}
+
+.home a {
+  color: #0457bb;
+  background-color: white;
+  /* box-shadow: var(--shadow); */
+  border-radius: 30px;
+  font-size: 1.6rem;
+}
+
+.home a:hover {
+  background-color: #0457bb;
+  color: white;
+  border: 2px solid white;
+}
+
+.home h2,
+.info h2,
+.story h2,
+.gallery h2,
+.rsvp h2,
+.gifts h2 {
+  color: white;
+  /* font-family: "Sacramento"; */
+  font-family: "Updock", cursive;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.home h3 {
+  color: #444;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.home h5 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: "Philosopher", sans-serif;
+}
+
+.home p {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 500;
+  font-family: "Averia Serif Libre", serif;
+}
+
+.home .couple {
+  margin-top: 50px;
+}
+
+.home .couple h3 {
+  font-family: "Sacramento";
+  font-size: 2.4rem;
+  color: #0457bb;
+  font-weight: bold;
+}
+
+.home .couple img {
+  width: 100%;
+}
+
+.home .heart {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+}
+
+.home .heart i {
+  margin: auto;
+  color: var(--pink);
+}
+
+/* .font-javanese {
+  font-family: 'Aksara Satrajendra' !important;
+  color: white;
+} */
+
+.font-esthetic {
+  font-family: "Updock", cursive;
+  color: #ffffff !important;
+}
+
+.font-arabic {
+  font-family: "Noto Naskh Arabic", serif !important;
+  color: #ffffff !important;
+}
+
+.info {
+  /* background-image: url(img/wayang-bg-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  background-color: #0457bb;
+  color: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.info .maps {
+  border-radius: 3%;
+}
+
+.info .alamat {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 500;
+  font-family: "Averia Serif Libre", serif;
+}
+
+.info .description {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: white;
+  font-family: "Averia Serif Libre", serif;
+}
+
+.info .card {
+  background-color: #0457bb;
+  /* background-color: white; */
+  color: white !important;
+  border: none;
+  /* border: 1px solid #999; */
+  /* border: 2px solid #0457BB; */
+  /* box-shadow: var(--shadow); */
+}
+
+.info .card-header {
+  /* border-bottom: 1px solid #999; */
+  /* border-bottom: 2px solid #0457BB; */
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  /* background-color: white; */
+  color: white;
+  font-size: 2rem;
+  font-family: "Philosopher", sans-serif;
+  /* font-family: "Sacramento", cursive; */
+}
+
+.info .card-body {
+  font-size: 1.6rem;
+  background: none;
+  /* background-color: white; */
+  /* border-bottom: 2px solid #0457BB; */
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-family: "Averia Serif Libre", serif;
+}
+
+.garis-tebal {
+  size: 10px;
+  border: solid 3px white;
+}
+
+/* .dashed{
+  border-left: 3px solid white;
+  height: 0px;
+  width: 400px;
+  display: inline-block;
+  padding-left: 5px;
+  } */
+
+.info .card-footer {
+  /* border-bottom: 1px solid #999; */
+  /* border-bottom: 1px solid #0457BB; */
+  border: none;
+  background: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  /* background-color: white; */
+  color: white;
+  font-family: "Averia Serif Libre", serif;
+}
+
+.info a {
+  color: #0457bb;
+  background-color: white;
+  /* box-shadow: var(--shadow); */
+  border-radius: 30px;
+  font-size: 1.6rem;
+}
+
+.info a:hover {
+  background-color: #0457bb;
+  color: white;
+  border: 2px solid white;
+}
+
+.story {
+  /* background-image: url(img/wayang-bg-3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  /* min-height: 100vh; */
+  /* margin-top: -6rem;
+  padding-top: 15rem;
+  padding-bottom: 5rem; */
+  background-color: #0457bb;
+}
+
+.story,
+.gallery,
+.rsvp,
+.gifts,
+.penutup {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.story span {
+  text-transform: uppercase;
+  color: black;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  font-family: "Philosopher", sans-serif;
+}
+
+.story .span1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+
+.story .p1 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: white;
+  font-family: "Averia Serif Libre", serif;
+}
+
+.story p,
+.rsvp p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: black;
+  font-family: "Averia Serif Libre", serif;
+}
+
+.gallery span {
+  text-transform: uppercase;
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  font-family: "Philosopher", sans-serif;
+}
+
+.gallery p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: white;
+  font-family: "Averia Serif Libre", serif;
+}
+
+.img-fluid-foto {
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gifts {
+  background-color: #0457bb;
+  /* background-image: url(img/wayang-bg-6.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+
+.gifts span {
+  text-transform: uppercase;
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  font-family: "Philosopher", sans-serif;
+}
+
+.gifts p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: white;
+  font-family: "Averia Serif Libre", serif;
+}
+
+.gifts .card-text {
+  font-size: 3rem;
+  font-weight: 700;
+  color: black;
+  font-family: "Averia Serif Libre", serif;
+}
+
+.gifts .card-text-name {
+  font-size: 3rem;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Averia Serif Libre", serif;
+}
+
+.gifts button {
+  background-color: #0457bb;
+  color: white;
+  /* box-shadow: var(--shadow); */
+  border-radius: 50px;
+}
+
+.gifts button:hover {
+  color: #0457bb;
+  background-color: white;
+  border: 2px solid #0457bb;
+}
+
+.gifts .card-body {
+  background-color: white;
+}
+
+.timeline {
+  list-style: none;
+  padding: 1.4rem 0;
+  margin-top: 1rem;
+  position: relative;
+}
+
+/* .timeline-heading {
+  color: #0457bb;
+  font-weight: 300;
+} */
+
+.timeline-heading h3 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #0457bb;
+  font-family: "Pacifico", cursive;
+}
+
+.timeline-heading span {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.timeline-body {
+  font-size: 1.6rem;
+  font-family: "Averia Serif Libre", serif;
+}
+
+.timeline::before {
+  content: "";
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  width: 1px;
+  background-color: #ccc;
+  left: 50%;
+}
+
+.timeline li {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.timeline li::before,
+.timeline li::after {
+  content: "";
+  display: table;
+}
+
+.timeline li::after {
+  clear: both;
+}
+
+.timeline li .timeline-image {
+  width: 160px;
+  height: 160px;
+  background-color: #ccc;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.timeline li .timeline-panel {
+  width: 40%;
+  float: left;
+  /* border: 1px solid #ccc; */
+  border: 2px solid #0457bb;
+  padding: 2rem;
+  position: relative;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.timeline li .timeline-panel::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  border-top: 15px solid transparent;
+  /* border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc; */
+  border-left: 15px solid #0457bb;
+  border-right: 0 solid #0457bb;
+  border-bottom: 15px solid transparent;
+  top: 80px;
+  right: -15px;
+}
+
+.timeline li .timeline-panel::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  /* border-left: 14px solid #fff;
+  border-right: 0 solid #fff; */
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  top: 81px;
+  right: -13px;
+}
+
+.timeline li.timeline-inverted .timeline-panel {
+  float: right;
+}
+
+.timeline li.timeline-inverted .timeline-panel::before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+
+.timeline li.timeline-inverted .timeline-panel::after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -13px;
+  right: auto;
+}
+
+.gallery {
+  background-color: #0457bb;
+}
+
+.rsvp {
+  background-color: #0457bb;
+  /* background-image: url(img/bg-pattern-transparant.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+
+.rsvp h2 {
+  font-size: 4.5rem;
+}
+
+.rsvp p {
+  color: white;
+}
+
+.rsvp form label {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.rsvp button {
+  background-color: white;
+  color: #0457bb;
+  border: 1px solid white;
+  font-size: 1.6rem;
+}
+
+.rsvp button:hover {
+  background-color: #0457bb;
+  color: white;
+  /* border: 1px solid #0457bb; */
+  border: 2px solid white;
+}
+
+footer {
+  padding: 3rem;
+  background-color: #0457bb;
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+footer a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: black;
+}
+
+footer li {
+  list-style: none;
+  display: inline;
+  margin: 0.5rem;
+}
+
+.block {
+  font-size: 1.5rem;
+}
+
+.penutup {
+  background-color: #0457bb;
+  /* background-image: url(img/wayang-bg-6.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+
+.penutup p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: white;
+  font-family: "Averia Serif Libre", serif;
+}
+
+.penutup h5 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: "Philosopher", sans-serif;
+}
+
+.penutup h3 {
+  color: white;
+  font-family: "Updock", cursive;
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.img-crop {
+  width: 14rem;
+  height: 14rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.img-crop > img {
+  display: inline;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+}
+
+.line {
+  height: 5px;
+  border-radius: 10px;
+  width: 85%;
+  background-color: rgb(255, 255, 255);
+  animation: line 2s infinite alternate;
+}
+
+@keyframes line {
+  to {
+    width: 75%;
+  }
+}
+
+.audio-icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2rem;
+  border: pointer;
+  color: white;
+  /* opacity: 0.5; */
+  /* mix-blend-mode: difference; */
+  animation: rotating 4s linear infinite;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+
+.arrow-icon-wrapper {
+  position: fixed;
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  bottom: 8.5rem;
+  right: 2rem;
+  border: pointer;
+  color: white;
+  /* opacity: 0.5; */
+  /* mix-blend-mode: difference; */
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+
+.arrow-icon-wrapper i {
+  position: fixed;
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  bottom: 8.5rem;
+  right: 2rem;
+  border: pointer;
+  color: white;
+  /* opacity: 0.5; */
+  /* mix-blend-mode: difference; */
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+
+@keyframes rotating {
+  form {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* @keyframes snowAnim {
+  form {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(650px);
+  }
+} */
+
+/* Media Query */
+/* Extra Large */
+@media (max-width: 1200px) {
+  .home .heart {
+    transform: translateX(-50%) translateY(80px);
+  }
+}
+
+/* laptop */
+@media (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 70px;
+  }
+
+  .home .heart {
+    display: none;
+  }
+
+  .timeline::before {
+    left: 60px;
+  }
+
+  .timeline li .timeline-image {
+    left: 15px;
+    margin-left: 45px;
+    top: 16px;
+  }
+
+  .timeline li .timeline-panel {
+    width: calc((100% - 200px));
+    float: right;
+  }
+
+  .timeline li .timeline-panel::before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+  }
+
+  .timeline li .timeline-panel::after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -13px;
+    right: auto;
+  }
+}
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 60px;
+    margin: 5px;
+  }
+
+  .mynavbar .nav-link {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .sticky-top {
+    overflow: hidden;
+  }
+
+  .timeline li .timeline-image {
+    width: 140px;
+    height: 140px;
+  }
+}
+/* mobile phone */
+@media (max-width: 576px) {
+  html {
+    font-size: 60%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 45px;
+    margin: 3px;
+  }
+
+  .timeline li .timeline-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .timeline li .timeline-panel {
+    width: 65%;
+    transform: translateX(-20px);
+  }
+
+  .timeline li .timeline-panel::before {
+    top: 30px;
+  }
+
+  .timeline li .timeline-panel::after {
+    top: 31px;
+  }
+}
+
+/* mobile phone width 400*/
+@media (max-width: 400px) {
+  html {
+    font-size: 60%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 35px;
+    margin: 3px;
+  }
+
+  .timeline li .timeline-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .timeline li .timeline-panel {
+    width: 65%;
+    transform: translateX(-20px);
+  }
+
+  .timeline li .timeline-panel::before {
+    top: 30px;
+  }
+
+  .timeline li .timeline-panel::after {
+    top: 31px;
+  }
+}
