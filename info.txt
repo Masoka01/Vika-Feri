@@ -1,80 +1,49 @@
-No WA yg bisa dihubungi : 081223643592
+📌*Urutan Nama Mempelai: 
 
-Jumlah :700 mempelai cewek, 
-Kode (nama undangan yang di pesan) : BW A17
+(Wanita-Pria) 
+wea yang bisa di hubungi : 081615343799
 
-Yang Mengundang (undangan ini miliknya siapa) : 700 Mempelai wanita 300 mempelai cowok
+Vika & Feri
 
-Undangan mempelai wanita
+ 👰Data Mempelai Wanita 
+▫Nama Lengkap : Vika Wahyuni Apriliyanti, S.Pd 
+▫Nama Panggilan : Vika 
+▫Nama Bapak : Edi Siswanto 
+▫Nama Ibu : Elis Priyanti 
 
-Mempelai putra : Luki Nugraha
-Nama orang tua : Joni & Haryati
-alamat: Dusun Bantarsari Rt 18 Rw 05 Desa Margaharja Kec Sukadana - Ciamis
+📲 Akun sosmed ungu (optional) : -
 
-Mempelai putri : Ima Nurannisa
-Nama orang tua : Ruslan & Entin Heryani
-Alamat : Jln Sukadana, dsn lawong Rt 04 rw 02 Desa pusakanagara kec baregbeg Kab Ciamis
+🤵Data Mempelai Pria 
+▫Nama Lengkap : Pratu Mar Feri Dwi Setiawan 
+▫Nama Panggilan : Feri 
+▫Nama Ibu : Suharti
+ ▫Nama Bapak : Gianto 
 
-Nama Panggilan Mempelai : Luki dan Ima
+📲 Akun sosmed ungu(optional) : 
 
-waktu Resepsi
-Hari : Senin
-Tanggal : 24 Juni 2024
-Pukul: 10.00 wib s/d selesai
-Hiburan : Pengajian Drs KH Aep saepul uyun
-alamat : dsn lawong Rt 04 rw 02 Desa pusakanagara kec baregbeg Kab Ciamis
+ 📆Akad Nikah
+▫Hari : Rabu 
+▫ Tanggal : 26, Juni 2024
+ ▫️ Jam : 08.00-Selesai
+ ▫️ Alamat : Dusun Babadan RT 003 RW 001 Desa Wuluh Kecamatan Kesamben Kabupaten Jombang
 
-AKAD NIKAH
-Hari : Senin 
-Tanggal : 24 Juni 2024
-tempat : Mempelai Wanita 
-Jam: 08.00 wib s/d selesai
+📆Resepsi 
+▫Hari : Rabu 
+▫ Tanggal : 26 Juni 2024
+ ▫️Jam : Bebas
+ ▫️ Alamat : Dusun Babadan RT 003 RW 001 Desa Wuluh Kecamatan Kesamben Kabupaten Jombang 
 
-Turut mengundang
-Bpk ateng nurjamil (MUI Desa pusakanagara)
-Bpk agus ma'nun (Lurah)
-Bpk iday hidayat ( ketua Rw 02)
-Bpk uen ( ketua rt 04)
-Bpk herman (ebod)
-Bpk nasrudin
-Bpk abdullah
+❤Love Story (Optional): Love 
 
-https://maps.app.goo.gl/6pNy5PNfiF6TAweZ9
+💸Nomor re ke ning : 
+(BCA/BRI/E-wallet, dll) 
+BNI : 0984508322 An. Feri Dwi Setiawan 
+Mandiri : 1420022302482 An. Vika Wahyuni Apriliyanti 
 
-src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3957.5134670988336!2d108.38396557401985!3d-7.296060492711501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMTcnNDUuOCJTIDEwOMKwMjMnMTEuNiJF!5e0!3m2!1sen!2sid!4v1718766329685!5m2!1sen!2sid"
+📍Titik Koordinat Lokasi ( Link Share Lokasi ) : https://maps.app.goo.gl/zQ5JyUEFhcjr1nUk8 
 
-    <!-- Start Gifts -->
-    <section id="gifts" class="gifts">
-      <div class="container-isi-gift">
-        <img class="bunga-sampingkanan-gift" src="img/bunga-sampingkanan-home.png" alt="" data-aos="fade-left" data-aos-duration="2000">
-        <div class="row justify-content-center">
-          <div class="col-md-8 col-10 text-center">
-            <span data-aos="fade-down" data-aos-duration="2000">Ungkapan Tanda Kasih</span>
-            <h2 data-aos="zoom-in" data-aos-duration="2000">Wedding Gifts</h2>
-            <p data-aos="fade-up" data-aos-duration="2000">Doa restu Anda merupakan karunia yang sangat berarti bagi kami.
-            Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.</p>
-          </div>
-        </div>
-        <div class="row justify-content-center text-center mt-4" data-aos="zoom-in" data-aos-duration="2000">
-          <div class="card-body border rounded-4 shadow p-3 m-3" style="max-width: 25rem;" data-aos="fade-down" data-aos-duration="1500">
-            <img src="img/bank-bca.png" class="img-fluid rounded" width="100" alt="bca">
+🎵 Backsound / Music : Beautiful in white
 
-            <p class="card-text mt-3 mb-0" style="font-size: 2rem;">No. Rekening : 123456789</p>
-            <p class="card-text-name" style="font-size: 2rem;">a.n Yayang Wahyu</p>
+https://maps.app.goo.gl/gP7ULCBr723o6ixZ6
 
-            <!-- Ubah juga data-nomer sesuai dengan no rekening -->
-            <button class="btn btn-light btn-lg rounded-10" data-nomer="123456789" onclick="util.salin(this)" autofocus><i class="bi bi-copy"></i> Salin No. Rekening</button>
-          </div>
-          <div class="card-body border rounded-4 shadow p-3 m-3" style="max-width: 25rem;" data-aos="fade-down" data-aos-duration="2000">
-            <img src="img/bri.png" class="img-fluid rounded" width="100" alt="bri">
-
-            <p class="card-text mt-3 mb-0" style="font-size: 2rem;">No. Rekening : 1335577913</p>
-            <p class="card-text-name" style="font-size: 2rem;">a.n Yayang Wahyu</p>
-
-            <!-- Ubah juga data-nomer sesuai dengan no rekening -->
-            <button class="btn btn-light btn-lg rounded-10" data-nomer="1335577913" onclick="util.salin(this)" autofocus><i class="bi bi-copy"></i> Salin No. Rekening</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Gifts -->
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.066460250001!2d112.3703802!3d-7.457900099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e781314e144f821%3A0x411e18f8c433c91f!2sVika%20Wahyuni%20Apriliyanti!5e0!3m2!1sen!2sid!4v1718864260984!5m2!1sen!2sid"
